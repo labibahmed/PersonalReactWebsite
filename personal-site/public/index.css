@@ -1,0 +1,41 @@
+html, body {
+    height:100%;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+  }
+
+div.navbar{
+    position: left; 
+    top: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    height: 100%;
+    width: 50px;
+    padding: 50px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+h1.navbar-header{
+    font-size: 15px;
+}
+
+ul.navbar-icons{
+    list-style-type: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+li.nav{
+
+}
+
+a.side-icons-text{
+    font-size: 10px;
+}
