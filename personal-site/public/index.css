@@ -1,41 +1,61 @@
-html, body {
-    height:100%;
-}
-body {
-    width: 100%;
+ body{
+    padding:0%;
+    margin:0;
+    border:0;
+ }
+ a,a:active,a:hover,a:link, a:visited,.side-icons-text {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color:white;
+    background-color: transparent;
+ } 
+
+ .navbar{
     height: 100vh;
-    margin: 0px;
-  }
-
-div.navbar{
-    position: left; 
-    top: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    height: 100%;
-    width: 50px;
-    padding: 50px;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:center;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    width: 5%;
+    padding-left: 1%;
 }
 
-h1.navbar-header{
-    font-size: 15px;
-}
-
-ul.navbar-icons{
-    list-style-type: none;
-    list-style: none;
+.navbar-header{
+    position: fixed;
+    width: 5%;
+    top: -80%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
     padding-left: 0;
+    margin: 0;
+    font-size: 100%;
+    color:white;
 }
 
-li.nav{
-
+.navbar-icons {
+    position: fixed;
+    width: 5%;
+    top: 0;
+    left: -30px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
 }
 
-a.side-icons-text{
-    font-size: 10px;
+.navbar-icons{
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar-item{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    list-style-type: none;
+    margin: 0;
+    font-size: 80%;
+    color:white;
 }
