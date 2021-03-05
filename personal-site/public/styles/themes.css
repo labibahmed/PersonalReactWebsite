@@ -1,0 +1,100 @@
+.Dark{
+    /* color for Highlights */
+    --primary-color: #BB86FC;
+    --primary-variant: #3700B3;
+    --secondary-color: #03DAC9;
+
+    /* color for backgrounds and surface */
+    --background-color: #121212;
+    --surface-color: rgb(255,255,255,0.08);
+    --error-color: #CF6679;
+
+    /* color for text */
+    --on-primary:#000000;
+    --on-secondary:#000000;
+    --on-error:#000000;
+    --on-background:#FFFFFF;
+    --on-surface:#FFFFFF;
+    
+
+}
+
+
+.dropbtn {
+    background-color: var(--surface-color);
+}
+.dropdown-content {
+      
+      background-color:var(--surface-color);
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+.dropdown-content a {
+    
+    color:var(--on-background);
+
+}
+.dropdown-content a:hover {
+
+    background-color: var(--on-background);
+
+}
+.dropdown:hover .dropbtn {
+
+    background-color: var(--surface-color);
+
+}
+a, .side-icons-text{
+
+    color: var(--on-background);
+
+}
+
+.navbar {
+    background-color: var(--background-color);
+    opacity: 0.93;
+}
+.navbar a, .navLogo g {
+    fill: var(--on-background);
+    color: var(--on-background);
+
+}
+.navbar a:hover , .navLogo:hover g{
+    fill: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.page{
+    background-color: var(--background-color);
+    color: var(--on-background);
+}
+ 
+.template{
+    color: var(--on-background);
+  }
+
+  .template h1{
+    font-size: 5rem;
+    color: var(--secondary-color);
+  }
+
+  .template .description .h2{
+
+  }
+  
+  .template .description .details{
+    color: var(--on-surface);
+    opacity:0.93;
+  }
+
+  .niceBtn{
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+  }
+
+  .niceBtn:hover{
+    background-color: var(--primary-color);
+    color: var(--on-primary);
+    }
+
+

@@ -3,7 +3,7 @@ import React from "react";
 
 function Experience() {
     return (
-        <div className="home">
+        <div className="page">
             <h1>Experience</h1>
         </div>
     )
