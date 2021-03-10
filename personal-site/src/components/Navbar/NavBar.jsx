@@ -10,7 +10,6 @@ function NavBar(props) {
                 <SideIcons type="head" name="Home" />
                 <div className="navbar-icons">
                     <ul className="navbar-list">
-                        <SideIcons type="text" name="About" />
                         <SideIcons type="text" name="Skills" />
                         <SideIcons type="text" name="Experience" />
                         <SideIcons type="text" name="Projects" />

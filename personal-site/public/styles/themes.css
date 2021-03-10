@@ -81,7 +81,13 @@ a, .side-icons-text{
   .template .description .h2{
 
   }
-  
+  .experienceCompany{
+      color:var(--primary-color);
+  }
+  .switcherBtn{
+      color:var(--primary-color);
+      background:transparent;
+  }
   .template .description .details{
     color: var(--on-surface);
     opacity:0.93;
