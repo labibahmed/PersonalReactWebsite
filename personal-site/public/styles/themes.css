@@ -73,14 +73,14 @@ a, .side-icons-text{
     color: var(--on-background);
   }
 
-  .template h1{
+.template h1{
     font-size: 5rem;
     color: var(--secondary-color);
   }
 
-  .template .description .h2{
-
-  }
+.description .h2{
+    color:var(--primary-color);
+}
   .experienceCompany{
       color:var(--primary-color);
   }
@@ -92,7 +92,6 @@ a, .side-icons-text{
     color: var(--on-surface);
     opacity:0.93;
   }
-
   .niceBtn{
       border-color: var(--primary-color);
       color: var(--primary-color);

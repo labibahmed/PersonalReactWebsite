@@ -61,6 +61,9 @@
     margin-left: 10px;
     outline: none;
   }
+  #exp .h2{
+    font-size: 0.8rem;
+}
 
   .template .details{
     font-size: 0.8rem;
